@@ -17,12 +17,12 @@ p { color:black;
 h6.GERALD{
      color:red; 
      font-size: 10px; 
-     font-family:Arial
+     font-family:Arial;
 }
 
 h6.LADY_HUNSTANTON{ 
-    color:rgb(19, 158, 37); 
-    font-size: 10px; 
+    color:red; 
+    font-size: 10px;
     font-family:Arial
 }
 h6.ALLONBY{ 
@@ -35,6 +35,22 @@ p.r:hover {
     background-color: skyblue;
 }
 
+h6.GERALD:hover
+ {
+    text-shadow: 2px 2px 5px rgb(0, 255, 149);
+    border-style:groove;
+ }
+h6.LADY_HUNSTANTON:hover 
+{
+    text-shadow: 2px 2px 5px rgb(0, 255, 76);
+    border-style:groove;
+
+}
+h6.ALLONBY:hover
+{
+    text-shadow: 2px 2px 5px rgb(0, 255, 170);
+    border-style:groove;
+}
 
 table, th, td {
     border: 1px solid black; 

@@ -1,3 +1,11 @@
 
 
-h6 { color: green}
+h6 { color:black; font-size: 30px; font-family:Times New Roman}
+p.r{ color:black; font-size: 20px; font-family:Times New Roman; background-color: rgb(159, 216, 159);}
+p { color:black; font-size: 10px; font-family:Times New Roman}
+
+
+p.r:hover {
+    background-color: skyblue;
+  }
+
